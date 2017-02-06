@@ -1,5 +1,5 @@
 # TestNoble
-Talks with TestBleno and transmit binary data
+Talks with TestBleno and receives binary data
 # Install
 npm install
 # run
