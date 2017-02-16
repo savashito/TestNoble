@@ -25,11 +25,12 @@ let socketController = new SocketController();
 io.on('connection', function(socket){
 	console.log('a user connected');
 	socketController.setSocket(socket);
-	/*
+	
 	socket.on('ergData', function(data){
-	packageErgEntry(data)
-	console.log('message: ' , data);
-	});*/
+		// packageErgEntry(data)
+		console.log('message: ' , data);
+		socketController.emit('ergData',data);
+	});
 
 });
 

@@ -17,7 +17,7 @@ function2 = function () {
 setTimeout(function2, 1);
 // */
 // process.exit()
-
+/*
 console.log("Sexy");
 noble.on('stateChange', function(state) {
 	if (state === 'poweredOn') {
@@ -76,3 +76,4 @@ function requestErgData() {
 		}
 	});
 }
+*/
